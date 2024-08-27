@@ -1,41 +1,53 @@
-# Teachable Machine Community
+# EasyODA
+### _Easy to understand and use object detection app_
 
-![Teachable Machine](./teachablemachine.gif)
+[//]:[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://teachablemachine.withgoogle.com/)
 
-### What is Teachable Machine?
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-[Teachable Machine](https://teachablemachine.withgoogle.com/) is a web-based tool that makes creating machine learning models fast, easy, and accessible for everyone. [You can try it here](https://teachablemachine.withgoogle.com/).
+EasyODA
+- Drag or upload your object's image into the app
+- ✨Magic ✨
+- You'll receive the answer what it is
 
-### Who is it for?
+## Features
 
-Educators, artists, students, innovators, makers of all kinds – really, anyone who has an idea they want to explore. No prerequisite machine learning knowledge required.
+- Detect the object appear in the image
+- **Note**: Currently, this app only capable of detect 3 types of object (Pen, Book and Rubik)
 
-### How does it work?
 
-You train a computer to recognize your images, sounds, and poses without writing any machine learning code. Then, use your model in your own projects, sites, apps, and more.
+> If you don't know what is the object in front of you
+> Just put it in our app and you'll know
 
-### What is this repository for?
+## Tech
 
-This repository contains two components of [Teachable Machine](https://teachablemachine.withgoogle.com/):
+The whole app was made completely by Google Teachable machine
 
-1. **A [libraries](/libraries) section** that contains all of the machine learning code used in Teachable Machine. Under the hood we use [Tensorflow.js](https://www.tensorflow.org/js), a library for machine learning in Javascript, to train and run the models you make in your web browser. The `libraries` section also contains the API for [image](/libraries/image), [audio](/libraries/audio), and [pose](/libraries/pose) helper libraries that make it easier to use the models exported by Teachable Machine in your own projects.
+- [TeachableMachine] - No code platform to make machine learning projects
+- [TrainData] - Data used to train this model
 
-2. **A [snippets](/snippets) section** that contains markdown snippets that are being displayed inside the export panel in [Teachable Machine](https://teachablemachine.withgoogle.com/). These snippets contain code and instructions on how to use the exported models from Teachable Machine in languages like Javascript, Java and Python.
+And of course EasyODA itself is open source with a [public repository][dill]
+ on GitHub.
 
-### How can I send feedback or get in contact with you?
+## Installation
 
-You have a few options:
+EasyODA requires ... to run.
 
-- Share your projects using [#teachablemachine](https://twitter.com/hashtag/teachablemachine) on Twitter or on the [Experiments with Google](https://experiments.withgoogle.com/submit) page.
-- Open an issue in this repository.
+Commands to install
+```sh
+cd ...
+... 
+...
+```
 
-## Community Contributions and Projects
 
-- [Teachable Machine Node Library for image models](https://github.com/tr7zw/teachablemachine-node-example) (Archived and now continued [here](https://github.com/drinkspiller/teachablemachine-node-example/))
-- [Teachable Machine Mobile for image models](https://github.com/mstale007/Teachable_Machine_Mobile/tree/master)
+## License
 
-## Disclaimer
+...
 
-This is an experiment, not an official Google product. We’ll do our best to support and maintain this experiment but your mileage may vary.
+**Free Software, Hell Yeah!**
 
-We encourage open sourcing projects as a way of learning from each other. Please respect our and other creators’ rights, including copyright and trademark rights when present, when sharing these works and creating derivative work. If you want more info on Google's policy, you can find that [here](https://www.google.com/permissions/).
+[//]: # (Format links below)
+   [dill]: <https://github.com/dashboard>
+   [TeachableMachine]: <https://teachablemachine.withgoogle.com/>
+   [TrainData]: <https://1drv.ms/f/c/d77432a968e46031/Er4WKUbPxxhMpFB0_iiWqG0BbTUZrdtpJlmJXFKBJcLbYg>
